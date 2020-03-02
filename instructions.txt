@@ -1,0 +1,5 @@
+1. use images_to_np file to generate .npy file of the dataset. This train_images.npy file will be used to train our model.
+
+2. Run LeNet.py once to train and save the model Lenet_all_60.h5 file.
+
+3. After that no need to train again, so run LeNet.py after model.load(Lenet_all_60.h5); to make predictions.
